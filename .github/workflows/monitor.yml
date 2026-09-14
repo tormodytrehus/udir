@@ -1,0 +1,46 @@
+name: Overvåk Udir
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: udir-radar
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer avhengigheter
+        run: pip install -r requirements.txt
+
+      - name: Test og kontroller kilder
+        run: |
+          python -m unittest discover -s tests -v
+          python monitor.py
+
+      - name: Lagre tilstand og RSS
+        run: |
+          git add state/state.json public/feed.xml
+          if git diff --cached --quiet; then
+            echo "Ingen endringer"
+            exit 0
+          fi
+          git config user.name "udir-radar[bot]"
+          git config user.email "udir-radar[bot]@users.noreply.github.com"
+          git commit -m "Oppdater Udir-radar"
+          git push
