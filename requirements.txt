@@ -1,0 +1,1 @@
+# Ingen tredjepartsavhengigheter. Filen beholdes for et stabilt GitHub-oppsett.

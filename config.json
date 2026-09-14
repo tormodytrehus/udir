@@ -1,0 +1,71 @@
+{
+  "silent_first_run": true,
+  "topics": [
+    {"id": "fravaer", "terms": ["fravær i grunnskolen", "fravær 10. trinn"]},
+    {"id": "nasjonale-prover", "terms": ["nasjonale prøver"]},
+    {"id": "elevundersokelsen", "terms": ["elevundersøkelsen", "mobbing", "læringsmiljø"]},
+    {"id": "grunnskolefakta", "terms": ["fakta om grunnskolen"]},
+    {"id": "skolebidrag", "terms": ["skolebidrag"]},
+    {"id": "barnehage", "terms": ["barnehage", "bemanning", "pedagognorm", "dispensasjon"]}
+  ],
+  "municipalities": [
+    {"number": "5059", "name": "Orkland"},
+    {"number": "5029", "name": "Skaun"},
+    {"number": "5055", "name": "Heim"},
+    {"number": "5022", "name": "Rennebu"},
+    {"number": "5061", "name": "Rindal"}
+  ],
+  "feed": {
+    "title": "Udir-radar for Sør-Trøndelag",
+    "description": "Støysvake varsler om nye Udir-publiseringer som bør kontrolleres lokalt.",
+    "home_url": "https://www.udir.no/tall-og-forskning/statistikk/",
+    "max_items": 30
+  },
+  "sources": [
+    {
+      "id": "publiseringskalender",
+      "title": "Udirs publiseringskalender",
+      "kind": "calendar",
+      "url": "https://www.udir.no/kalender/Publiseringer/",
+      "terms": [
+        "fravær i grunnskolen",
+        "nasjonale prøver",
+        "elevundersøkelsen",
+        "fakta om grunnskolen",
+        "skolebidrag",
+        "barnehage"
+      ],
+      "minimum_matches": 1
+    },
+    {
+      "id": "grunnskole",
+      "title": "Udir grunnskolestatistikk",
+      "kind": "links",
+      "url": "https://www.udir.no/tall-og-forskning/statistikk/statistikk-grunnskole/",
+      "terms": [
+        "fravær",
+        "nasjonale prøver",
+        "elevundersøkelsen",
+        "fakta om grunnskolen",
+        "skolebidrag"
+      ],
+      "minimum_matches": 3
+    },
+    {
+      "id": "elevundersokelsen",
+      "title": "Elevundersøkelsen",
+      "kind": "links",
+      "url": "https://www.udir.no/tall-og-forskning/brukerundersokelser/elevundersokelsen/resultater/offentlige-resultater-grunnskole/",
+      "terms": ["elevundersøkelsen", "mobbing", "læringsmiljø", "deltakelse"],
+      "minimum_matches": 2
+    },
+    {
+      "id": "barnehage",
+      "title": "Udir barnehagestatistikk",
+      "kind": "links",
+      "url": "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/",
+      "terms": ["bemanning", "pedagognorm", "dispensasjon", "fakta om barnehager"],
+      "minimum_matches": 2
+    }
+  ]
+}
