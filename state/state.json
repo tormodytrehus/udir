@@ -1,1 +1,66 @@
-{}
+{
+  "emitted": [],
+  "emitted_topics": [],
+  "initialized": true,
+  "known": [
+    "link:0a546df35a811e3564bd",
+    "link:0b20bc468a664f759411",
+    "link:0ef5b8d9ec6bf36a5c08",
+    "link:13207807dae51ed3d89b",
+    "link:14af0c5b01d225b4ad59",
+    "link:2636465d8ce54ed82953",
+    "link:2bd0480a2bf780e0bd14",
+    "link:2ea76c06293754f0404b",
+    "link:30de014033340c7b96f9",
+    "link:353dbb935997a044fd9b",
+    "link:3d8dc689855308f7415c",
+    "link:489b934d88460a6f9d34",
+    "link:4e6f37c2d29439ebd394",
+    "link:510a5f1443810278ac2b",
+    "link:52f9c50914ac685039cf",
+    "link:5809dfd806337fc44c5f",
+    "link:732761166b8abcc563e9",
+    "link:83c0206c4f3879021246",
+    "link:8b4dbc400bba34c38f83",
+    "link:c3df89d75cd244c5ac76",
+    "link:c531d34108df3938cd52",
+    "link:d6395957d959e1618232",
+    "link:f52f48e1db8d09117795",
+    "link:f6d9d2aaef1ace5ffc50"
+  ],
+  "last_successful_check": "2026-09-14T17:03:01.127042+00:00",
+  "scheduled": [
+    {
+      "due": "2026-10-15",
+      "key": "calendar:2026-10-15:statistikk: fravær i grunnskolen",
+      "source_id": "publiseringskalender",
+      "source_title": "Udirs publiseringskalender",
+      "title": "Statistikk: Fravær i grunnskolen",
+      "url": "https://www.udir.no/kalender/Publiseringer/"
+    },
+    {
+      "due": "2026-11-12",
+      "key": "calendar:2026-11-12:statistikk: nasjonale prøver",
+      "source_id": "publiseringskalender",
+      "source_title": "Udirs publiseringskalender",
+      "title": "Statistikk: Nasjonale prøver",
+      "url": "https://www.udir.no/kalender/Publiseringer/"
+    },
+    {
+      "due": "2026-12-10",
+      "key": "calendar:2026-12-10:statistikk: offentlig publisering av resultat fra elevundersøkelsen",
+      "source_id": "publiseringskalender",
+      "source_title": "Udirs publiseringskalender",
+      "title": "Statistikk: Offentlig publisering av resultat fra Elevundersøkelsen",
+      "url": "https://www.udir.no/kalender/Publiseringer/"
+    },
+    {
+      "due": "2026-12-17",
+      "key": "calendar:2026-12-17:statistikk: fakta om grunnskolen",
+      "source_id": "publiseringskalender",
+      "source_title": "Udirs publiseringskalender",
+      "title": "Statistikk: Fakta om grunnskolen",
+      "url": "https://www.udir.no/kalender/Publiseringer/"
+    }
+  ]
+}
