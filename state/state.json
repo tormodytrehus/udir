@@ -1,6 +1,9 @@
 {
-  "emitted": [],
+  "emitted": [
+    "calendar:2026-10-13:rapport: beregning av nasjonale satser barnehage"
+  ],
   "emitted_topics": [
+    "barnehage:2026",
     "nasjonale-prover:2026"
   ],
   "initialized": true,
@@ -32,16 +35,8 @@
     "link:f52f48e1db8d09117795",
     "link:f6d9d2aaef1ace5ffc50"
   ],
-  "last_successful_check": "2026-10-12T07:36:17.081231+00:00",
+  "last_successful_check": "2026-10-13T07:37:02.583638+00:00",
   "scheduled": [
-    {
-      "due": "2026-10-13",
-      "key": "calendar:2026-10-13:rapport: beregning av nasjonale satser barnehage",
-      "source_id": "publiseringskalender",
-      "source_title": "Udirs publiseringskalender",
-      "title": "Rapport: Beregning av nasjonale satser barnehage",
-      "url": "https://www.udir.no/kalender/Publiseringer/"
-    },
     {
       "due": "2026-10-14",
       "key": "calendar:2026-10-14:statistikk: fravær i grunnskolen",
