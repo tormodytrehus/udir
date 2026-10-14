@@ -1,9 +1,11 @@
 {
   "emitted": [
-    "calendar:2026-10-13:rapport: beregning av nasjonale satser barnehage"
+    "calendar:2026-10-13:rapport: beregning av nasjonale satser barnehage",
+    "calendar:2026-10-14:statistikk: fravær i grunnskolen"
   ],
   "emitted_topics": [
     "barnehage:2026",
+    "fravaer:2026",
     "nasjonale-prover:2026"
   ],
   "initialized": true,
@@ -29,22 +31,15 @@
     "link:732761166b8abcc563e9",
     "link:83c0206c4f3879021246",
     "link:8b4dbc400bba34c38f83",
+    "link:907d03215f811660707f",
     "link:c3df89d75cd244c5ac76",
     "link:c531d34108df3938cd52",
     "link:d6395957d959e1618232",
     "link:f52f48e1db8d09117795",
     "link:f6d9d2aaef1ace5ffc50"
   ],
-  "last_successful_check": "2026-10-13T07:37:02.583638+00:00",
+  "last_successful_check": "2026-10-14T07:48:27.381053+00:00",
   "scheduled": [
-    {
-      "due": "2026-10-14",
-      "key": "calendar:2026-10-14:statistikk: fravær i grunnskolen",
-      "source_id": "publiseringskalender",
-      "source_title": "Udirs publiseringskalender",
-      "title": "Statistikk: Fravær i grunnskolen",
-      "url": "https://www.udir.no/kalender/Publiseringer/"
-    },
     {
       "due": "2026-11-12",
       "key": "calendar:2026-11-12:statistikk: nasjonale prøver",
