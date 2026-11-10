@@ -1,7 +1,8 @@
 {
   "emitted": [
     "calendar:2026-10-13:rapport: beregning av nasjonale satser barnehage",
-    "calendar:2026-10-14:statistikk: fravær i grunnskolen"
+    "calendar:2026-10-14:statistikk: fravær i grunnskolen",
+    "calendar:2026-11-10:rapport: kartlegging, kvalitetsvurdering og analyse av utviklingen i nordisk barnehageforskning (nb-ecec)"
   ],
   "emitted_topics": [
     "barnehage:2026",
@@ -38,16 +39,8 @@
     "link:f52f48e1db8d09117795",
     "link:f6d9d2aaef1ace5ffc50"
   ],
-  "last_successful_check": "2026-11-09T17:28:46.407718+00:00",
+  "last_successful_check": "2026-11-10T15:35:30.701518+00:00",
   "scheduled": [
-    {
-      "due": "2026-11-10",
-      "key": "calendar:2026-11-10:rapport: kartlegging, kvalitetsvurdering og analyse av utviklingen i nordisk barnehageforskning (nb-ecec)",
-      "source_id": "publiseringskalender",
-      "source_title": "Udirs publiseringskalender",
-      "title": "Rapport: Kartlegging, kvalitetsvurdering og analyse av utviklingen i nordisk barnehageforskning (NB-ECEC)",
-      "url": "https://www.udir.no/kalender/Publiseringer/"
-    },
     {
       "due": "2026-11-12",
       "key": "calendar:2026-11-12:statistikk: nasjonale prøver",
